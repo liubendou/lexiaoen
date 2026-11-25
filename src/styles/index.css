@@ -1,0 +1,51 @@
+@import 'tailwindcss';
+@import './tokens.css';
+@import './global.css';
+
+/* Tailwind 工具类映射到 tokens.css —— 值仍以 :root 变量为唯一来源 */
+@theme inline {
+  --color-paper-base: var(--paper-base);
+  --color-paper-raised: var(--paper-raised);
+  --color-paper-sunken: var(--paper-sunken);
+  --color-paper-quote: var(--paper-quote);
+  --color-paper-overlay: var(--paper-overlay);
+  --color-ink-primary: var(--ink-primary);
+  --color-ink-secondary: var(--ink-secondary);
+  --color-ink-tertiary: var(--ink-tertiary);
+  --color-ink-disabled: var(--ink-disabled);
+  --color-ink-inverse: var(--ink-inverse);
+  --color-rule-hair: var(--rule-hair);
+  --color-rule-strong: var(--rule-strong);
+  --color-rule-focus: var(--rule-focus);
+  --color-indigo-50: var(--indigo-50);
+  --color-indigo-100: var(--indigo-100);
+  --color-indigo-300: var(--indigo-300);
+  --color-indigo-500: var(--indigo-500);
+  --color-indigo-600: var(--indigo-600);
+  --color-indigo-700: var(--indigo-700);
+  --color-vermilion-100: var(--vermilion-100);
+  --color-vermilion-500: var(--vermilion-500);
+  --color-vermilion-600: var(--vermilion-600);
+  --color-moss-100: var(--moss-100);
+  --color-moss-300: var(--moss-300);
+  --color-moss-500: var(--moss-500);
+  --color-moss-700: var(--moss-700);
+  --color-ochre-100: var(--ochre-100);
+  --color-ochre-500: var(--ochre-500);
+  --color-mode-fast: var(--mode-fast);
+  --color-mode-standard: var(--mode-standard);
+  --color-mode-quality: var(--mode-quality);
+
+  --font-sans: var(--font-body);
+  --font-serif: var(--font-title);
+  --font-mono: var(--font-mono);
+
+  --radius-xs: var(--radius-xs);
+  --radius-sm: var(--radius-sm);
+  --radius-md: var(--radius-md);
+  --radius-lg: var(--radius-lg);
+
+  --shadow-1: var(--shadow-1);
+  --shadow-menu: var(--shadow-menu);
+  --shadow-dialog: var(--shadow-dialog);
+}

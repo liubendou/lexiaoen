@@ -1,0 +1,255 @@
+[
+  {
+    "id": "ana-1", "subject": "anatomy", "level": 1, "title": "运动系统", "sort": 1,
+    "children": [
+      { "id": "ana-1-1", "level": 2, "title": "骨学", "children": [
+        { "id": "ana-1-1-1", "level": 3, "title": "骨的分类与构造", "requirement": "掌握", "bloom": "记忆" },
+        { "id": "ana-1-1-2", "level": 3, "title": "躯干骨", "requirement": "掌握", "bloom": "记忆" },
+        { "id": "ana-1-1-3", "level": 3, "title": "颅骨与四肢骨", "requirement": "理解", "bloom": "记忆" }
+      ]},
+      { "id": "ana-1-2", "level": 2, "title": "关节学", "children": [
+        { "id": "ana-1-2-1", "level": 3, "title": "关节的基本结构与辅助结构", "requirement": "掌握", "bloom": "记忆" },
+        { "id": "ana-1-2-2", "level": 3, "title": "脊柱与胸廓的连结", "requirement": "掌握", "bloom": "理解" },
+        { "id": "ana-1-2-3", "level": 3, "title": "肩肘髋膝关节", "requirement": "掌握", "bloom": "理解" }
+      ]},
+      { "id": "ana-1-3", "level": 2, "title": "肌学", "children": [
+        { "id": "ana-1-3-1", "level": 3, "title": "肌的形态与构造", "requirement": "理解", "bloom": "记忆" },
+        { "id": "ana-1-3-2", "level": 3, "title": "膈与腹肌", "requirement": "掌握", "bloom": "理解" }
+      ]}
+    ]
+  },
+  {
+    "id": "ana-2", "subject": "anatomy", "level": 1, "title": "消化系统", "sort": 2,
+    "children": [
+      { "id": "ana-2-1", "level": 2, "title": "消化管", "children": [
+        { "id": "ana-2-1-1", "level": 3, "title": "咽与食管", "requirement": "掌握", "bloom": "记忆" },
+        { "id": "ana-2-1-2", "level": 3, "title": "胃的形态与分部", "requirement": "掌握", "bloom": "记忆" },
+        { "id": "ana-2-1-3", "level": 3, "title": "小肠与大肠", "requirement": "掌握", "bloom": "理解" }
+      ]},
+      { "id": "ana-2-2", "level": 2, "title": "消化腺", "children": [
+        { "id": "ana-2-2-1", "level": 3, "title": "肝的位置形态与肝门", "requirement": "掌握", "bloom": "记忆" },
+        { "id": "ana-2-2-2", "level": 3, "title": "胆道与胰", "requirement": "理解", "bloom": "理解" }
+      ]}
+    ]
+  },
+  {
+    "id": "ana-3", "subject": "anatomy", "level": 1, "title": "呼吸系统", "sort": 3,
+    "children": [
+      { "id": "ana-3-1", "level": 2, "title": "呼吸道", "children": [
+        { "id": "ana-3-1-1", "level": 3, "title": "鼻与鼻窦", "requirement": "理解", "bloom": "记忆" },
+        { "id": "ana-3-1-2", "level": 3, "title": "喉的软骨与声门", "requirement": "掌握", "bloom": "记忆" },
+        { "id": "ana-3-1-3", "level": 3, "title": "气管与主支气管", "requirement": "掌握", "bloom": "理解" }
+      ]},
+      { "id": "ana-3-2", "level": 2, "title": "肺", "children": [
+        { "id": "ana-3-2-1", "level": 3, "title": "肺的位置与形态", "requirement": "掌握", "bloom": "记忆" }
+      ]},
+      { "id": "ana-3-3", "level": 2, "title": "胸膜与纵隔", "children": [
+        { "id": "ana-3-3-1", "level": 3, "title": "胸膜腔与肋膈隐窝", "requirement": "掌握", "bloom": "理解" }
+      ]}
+    ]
+  },
+  {
+    "id": "ana-4", "subject": "anatomy", "level": 1, "title": "泌尿系统", "sort": 4,
+    "children": [
+      { "id": "ana-4-1", "level": 2, "title": "肾", "children": [
+        { "id": "ana-4-1-1", "level": 3, "title": "肾的形态位置与构造", "requirement": "掌握", "bloom": "记忆" },
+        { "id": "ana-4-1-2", "level": 3, "title": "肾的被膜", "requirement": "了解", "bloom": "记忆" }
+      ]},
+      { "id": "ana-4-2", "level": 2, "title": "输尿管膀胱与尿道", "children": [
+        { "id": "ana-4-2-1", "level": 3, "title": "输尿管的狭窄与膀胱三角", "requirement": "掌握", "bloom": "记忆" }
+      ]}
+    ]
+  },
+  {
+    "id": "ana-5", "subject": "anatomy", "level": 1, "title": "生殖系统", "sort": 5,
+    "children": [
+      { "id": "ana-5-1", "level": 2, "title": "男性生殖系统", "children": [
+        { "id": "ana-5-1-1", "level": 3, "title": "睾丸与精索", "requirement": "理解", "bloom": "记忆" }
+      ]},
+      { "id": "ana-5-2", "level": 2, "title": "女性生殖系统", "children": [
+        { "id": "ana-5-2-1", "level": 3, "title": "子宫的位置与固定装置", "requirement": "掌握", "bloom": "记忆" }
+      ]}
+    ]
+  },
+  {
+    "id": "ana-6", "subject": "anatomy", "level": 1, "title": "脉管系统", "sort": 6,
+    "children": [
+      { "id": "ana-6-1", "level": 2, "title": "心", "children": [
+        { "id": "ana-6-1-1", "level": 3, "title": "心的位置外形与心腔", "requirement": "掌握", "bloom": "记忆" },
+        { "id": "ana-6-1-2", "level": 3, "title": "心传导系", "requirement": "掌握", "bloom": "记忆" },
+        { "id": "ana-6-1-3", "level": 3, "title": "心的血管与心包", "requirement": "理解", "bloom": "记忆" }
+      ]},
+      { "id": "ana-6-2", "level": 2, "title": "动脉", "children": [
+        { "id": "ana-6-2-1", "level": 3, "title": "主动脉的分部与主要分支", "requirement": "掌握", "bloom": "记忆" }
+      ]},
+      { "id": "ana-6-3", "level": 2, "title": "静脉", "children": [
+        { "id": "ana-6-3-1", "level": 3, "title": "肝门静脉系与侧支循环", "requirement": "掌握", "bloom": "理解" }
+      ]},
+      { "id": "ana-6-4", "level": 2, "title": "淋巴系统", "children": [
+        { "id": "ana-6-4-1", "level": 3, "title": "淋巴导管与脾", "requirement": "理解", "bloom": "记忆" }
+      ]}
+    ]
+  },
+  {
+    "id": "ana-7", "subject": "anatomy", "level": 1, "title": "感觉器", "sort": 7,
+    "children": [
+      { "id": "ana-7-1", "level": 2, "title": "视器", "children": [
+        { "id": "ana-7-1-1", "level": 3, "title": "眼球壁与内容物", "requirement": "掌握", "bloom": "记忆" }
+      ]},
+      { "id": "ana-7-2", "level": 2, "title": "前庭蜗器", "children": [
+        { "id": "ana-7-2-1", "level": 3, "title": "中耳与内耳", "requirement": "理解", "bloom": "记忆" }
+      ]}
+    ]
+  },
+  {
+    "id": "ana-8", "subject": "anatomy", "level": 1, "title": "神经系统", "sort": 8,
+    "children": [
+      { "id": "ana-8-1", "level": 2, "title": "中枢神经", "children": [
+        { "id": "ana-8-1-1", "level": 3, "title": "脊髓的外形与内部结构", "requirement": "掌握", "bloom": "理解" },
+        { "id": "ana-8-1-2", "level": 3, "title": "脑干的外形与内部结构", "requirement": "理解", "bloom": "理解" },
+        { "id": "ana-8-1-3", "level": 3, "title": "小脑与间脑", "requirement": "了解", "bloom": "记忆" },
+        { "id": "ana-8-1-4", "level": 3, "title": "大脑皮质功能定位", "requirement": "掌握", "bloom": "记忆" },
+        { "id": "ana-8-1-5", "level": 3, "title": "脑和脊髓的被膜血管与脑脊液", "requirement": "掌握", "bloom": "理解" }
+      ]},
+      { "id": "ana-8-2", "level": 2, "title": "周围神经", "children": [
+        { "id": "ana-8-2-1", "level": 3, "title": "脊神经与臂丛主要分支", "requirement": "掌握", "bloom": "记忆" },
+        { "id": "ana-8-2-2", "level": 3, "title": "十二对脑神经", "requirement": "掌握", "bloom": "记忆" },
+        { "id": "ana-8-2-3", "level": 3, "title": "内脏神经", "requirement": "理解", "bloom": "理解" }
+      ]},
+      { "id": "ana-8-3", "level": 2, "title": "传导通路", "children": [
+        { "id": "ana-8-3-1", "level": 3, "title": "感觉与运动传导通路", "requirement": "掌握", "bloom": "理解" }
+      ]}
+    ]
+  },
+  {
+    "id": "ana-9", "subject": "anatomy", "level": 1, "title": "内分泌系统", "sort": 9,
+    "children": [
+      { "id": "ana-9-1", "level": 2, "title": "内分泌器官", "children": [
+        { "id": "ana-9-1-1", "level": 3, "title": "垂体甲状腺甲状旁腺与肾上腺", "requirement": "理解", "bloom": "记忆" }
+      ]}
+    ]
+  },
+
+  {
+    "id": "phy-1", "subject": "physiology", "level": 1, "title": "绪论", "sort": 10,
+    "children": [
+      { "id": "phy-1-1", "level": 2, "title": "内环境与稳态", "children": [
+        { "id": "phy-1-1-1", "level": 3, "title": "内环境与稳态的概念", "requirement": "掌握", "bloom": "记忆" }
+      ]},
+      { "id": "phy-1-2", "level": 2, "title": "机体功能的调节", "children": [
+        { "id": "phy-1-2-1", "level": 3, "title": "神经调节体液调节与自身调节", "requirement": "掌握", "bloom": "理解" }
+      ]}
+    ]
+  },
+  {
+    "id": "phy-2", "subject": "physiology", "level": 1, "title": "细胞的基本功能", "sort": 11,
+    "children": [
+      { "id": "phy-2-1", "level": 2, "title": "细胞膜的物质转运", "children": [
+        { "id": "phy-2-1-1", "level": 3, "title": "被动转运与主动转运", "requirement": "掌握", "bloom": "理解" }
+      ]},
+      { "id": "phy-2-2", "level": 2, "title": "细胞的生物电现象", "children": [
+        { "id": "phy-2-2-1", "level": 3, "title": "静息电位与动作电位", "requirement": "掌握", "bloom": "理解" }
+      ]},
+      { "id": "phy-2-3", "level": 2, "title": "肌细胞的收缩", "children": [
+        { "id": "phy-2-3-1", "level": 3, "title": "兴奋-收缩耦联与骨骼肌收缩", "requirement": "理解", "bloom": "理解" }
+      ]}
+    ]
+  },
+  {
+    "id": "phy-3", "subject": "physiology", "level": 1, "title": "血液", "sort": 12,
+    "children": [
+      { "id": "phy-3-1", "level": 2, "title": "血液的组成与理化特性", "children": [
+        { "id": "phy-3-1-1", "level": 3, "title": "血浆渗透压", "requirement": "掌握", "bloom": "理解" }
+      ]},
+      { "id": "phy-3-2", "level": 2, "title": "血细胞", "children": [
+        { "id": "phy-3-2-1", "level": 3, "title": "红细胞与贫血", "requirement": "掌握", "bloom": "理解" }
+      ]},
+      { "id": "phy-3-3", "level": 2, "title": "血液凝固", "children": [
+        { "id": "phy-3-3-1", "level": 3, "title": "内源性外源性与抗凝系统", "requirement": "掌握", "bloom": "理解" }
+      ]},
+      { "id": "phy-3-4", "level": 2, "title": "血型与输血", "children": [
+        { "id": "phy-3-4-1", "level": 3, "title": "ABO血型系统与交叉配血", "requirement": "掌握", "bloom": "应用" }
+      ]}
+    ]
+  },
+  {
+    "id": "phy-4", "subject": "physiology", "level": 1, "title": "血液循环", "sort": 13,
+    "children": [
+      { "id": "phy-4-1", "level": 2, "title": "心脏的泵血功能", "children": [
+        { "id": "phy-4-1-1", "level": 3, "title": "心动周期与泵血过程", "requirement": "掌握", "bloom": "理解" },
+        { "id": "phy-4-1-2", "level": 3, "title": "心输出量与影响因素", "requirement": "掌握", "bloom": "应用" }
+      ]},
+      { "id": "phy-4-2", "level": 2, "title": "心肌的生物电现象", "children": [
+        { "id": "phy-4-2-1", "level": 3, "title": "心室肌细胞动作电位与平台期", "requirement": "掌握", "bloom": "理解" },
+        { "id": "phy-4-2-2", "level": 3, "title": "心肌的生理特性", "requirement": "掌握", "bloom": "理解" }
+      ]},
+      { "id": "phy-4-3", "level": 2, "title": "血管生理", "children": [
+        { "id": "phy-4-3-1", "level": 3, "title": "动脉血压的形成与影响因素", "requirement": "掌握", "bloom": "应用" }
+      ]},
+      { "id": "phy-4-4", "level": 2, "title": "心血管活动的调节", "children": [
+        { "id": "phy-4-4-1", "level": 3, "title": "压力感受性反射与体液调节", "requirement": "掌握", "bloom": "理解" }
+      ]}
+    ]
+  },
+  {
+    "id": "phy-5", "subject": "physiology", "level": 1, "title": "呼吸", "sort": 14,
+    "children": [
+      { "id": "phy-5-1", "level": 2, "title": "肺通气", "children": [
+        { "id": "phy-5-1-1", "level": 3, "title": "肺通气的动力与胸内压", "requirement": "掌握", "bloom": "理解" },
+        { "id": "phy-5-1-2", "level": 3, "title": "肺通气阻力与顺应性", "requirement": "理解", "bloom": "理解" }
+      ]},
+      { "id": "phy-5-2", "level": 2, "title": "呼吸气体的交换与运输", "children": [
+        { "id": "phy-5-2-1", "level": 3, "title": "氧与二氧化碳的运输", "requirement": "掌握", "bloom": "理解" }
+      ]},
+      { "id": "phy-5-3", "level": 2, "title": "呼吸运动的调节", "children": [
+        { "id": "phy-5-3-1", "level": 3, "title": "化学感受性呼吸反射", "requirement": "掌握", "bloom": "应用" }
+      ]}
+    ]
+  },
+  {
+    "id": "phy-6", "subject": "physiology", "level": 1, "title": "消化和吸收", "sort": 15,
+    "children": [
+      { "id": "phy-6-1", "level": 2, "title": "消化道运动与消化液", "children": [
+        { "id": "phy-6-1-1", "level": 3, "title": "胃液的成分与作用", "requirement": "掌握", "bloom": "记忆" },
+        { "id": "phy-6-1-2", "level": 3, "title": "胰液与胆汁", "requirement": "掌握", "bloom": "理解" }
+      ]}
+    ]
+  },
+  {
+    "id": "phy-7", "subject": "physiology", "level": 1, "title": "能量代谢与体温", "sort": 16,
+    "children": [
+      { "id": "phy-7-1", "level": 2, "title": "体温及其调节", "children": [
+        { "id": "phy-7-1-1", "level": 3, "title": "正常体温与产热散热", "requirement": "掌握", "bloom": "理解" }
+      ]}
+    ]
+  },
+  {
+    "id": "phy-8", "subject": "physiology", "level": 1, "title": "尿的生成和排出", "sort": 17,
+    "children": [
+      { "id": "phy-8-1", "level": 2, "title": "肾小球的滤过功能", "children": [
+        { "id": "phy-8-1-1", "level": 3, "title": "有效滤过压与滤过率", "requirement": "掌握", "bloom": "理解" }
+      ]},
+      { "id": "phy-8-2", "level": 2, "title": "肾小管与集合管的转运", "children": [
+        { "id": "phy-8-2-1", "level": 3, "title": "重吸收与分泌", "requirement": "掌握", "bloom": "理解" }
+      ]},
+      { "id": "phy-8-3", "level": 2, "title": "尿生成的调节", "children": [
+        { "id": "phy-8-3-1", "level": 3, "title": "抗利尿激素与醛固酮", "requirement": "掌握", "bloom": "应用" }
+      ]}
+    ]
+  },
+  {
+    "id": "phy-9", "subject": "physiology", "level": 1, "title": "神经系统", "sort": 18,
+    "children": [
+      { "id": "phy-9-1", "level": 2, "title": "突触传递", "children": [
+        { "id": "phy-9-1-1", "level": 3, "title": "经典突触与神经递质", "requirement": "掌握", "bloom": "理解" }
+      ]},
+      { "id": "phy-9-2", "level": 2, "title": "神经系统的感觉与运动功能", "children": [
+        { "id": "phy-9-2-1", "level": 3, "title": "感觉投射系统", "requirement": "理解", "bloom": "理解" },
+        { "id": "phy-9-2-2", "level": 3, "title": "牵张反射与运动调节", "requirement": "掌握", "bloom": "理解" }
+      ]},
+      { "id": "phy-9-3", "level": 2, "title": "自主神经系统", "children": [
+        { "id": "phy-9-3-1", "level": 3, "title": "交感与副交感的功能", "requirement": "掌握", "bloom": "记忆" }
+      ]}
+    ]
+  }
+]

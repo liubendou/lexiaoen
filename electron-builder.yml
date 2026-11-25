@@ -1,0 +1,41 @@
+appId: app.lexiaoen.tutor
+productName: 乐小恩
+copyright: Copyright © 2026 乐小恩
+directories:
+  output: release040
+# better-sqlite3 v13 为 N-API 预编译(ABI 稳定,自检已验证),无需 node-gyp 重编译
+npmRebuild: false
+files:
+  - out/**
+  - "!**/.vscode/*"
+  - "!src/*"
+  - "!electron/*"
+  - "!server/*"
+  - "!shared/*"
+  # 只保留 win32-x64 预编译,剔除其余 7 个平台产物(省约 12MB)
+  - "!**/node_modules/better-sqlite3/prebuilds/darwin*"
+  - "!**/node_modules/better-sqlite3/prebuilds/linux*"
+  - "!**/node_modules/better-sqlite3/prebuilds/win32-arm64*"
+  # @node-rs/jieba 同理(napi 平台子包)
+  - "!**/node_modules/@node-rs/jieba-darwin*"
+  - "!**/node_modules/@node-rs/jieba-linux*"
+  - "!**/node_modules/@node-rs/jieba-android*"
+  - "!**/node_modules/@node-rs/jieba-freebsd*"
+  - "!**/node_modules/@node-rs/jieba-win32-arm64*"
+# 原生模块必须解出 asar 才能运行时加载(《输出丝滑方案》0.4)
+asarUnpack:
+  - "**/node_modules/better-sqlite3/**"
+  - "**/node_modules/@node-rs/jieba*/**"
+win:
+  target:
+    - target: nsis
+      arch: [x64]
+    - target: portable
+      arch: [x64]
+nsis:
+  oneClick: true
+  perMachine: false
+  deleteAppDataOnUninstall: false
+  artifactName: 乐小恩-${version}-setup.${ext}
+portable:
+  artifactName: 乐小恩-${version}-portable.${ext}

@@ -1,0 +1,97 @@
+/* ============================================================
+   乐小恩 设计令牌 —— 唯一来源(UI方案 二 / 十)
+   禁止组件内硬编码色值;新色一律先加到这里
+   ============================================================ */
+:root {
+  /* 纸面层 */
+  --paper-base: #faf8f4;
+  --paper-raised: #ffffff;
+  --paper-sunken: #f2efe8;
+  --paper-quote: #f6f3ec;
+  --paper-overlay: rgba(28, 26, 23, 0.34);
+
+  /* 墨层 */
+  --ink-primary: #1c1a17;
+  --ink-secondary: #4a463f;
+  --ink-tertiary: #7a756b;
+  --ink-disabled: #b3ada1;
+  --ink-inverse: #faf8f4;
+
+  /* 线层 */
+  --rule-hair: #e5e0d6;
+  --rule-strong: #cfc8b8;
+  --rule-focus: #3a5a92;
+
+  /* 学术靛蓝 */
+  --indigo-50: #eef1f7;
+  --indigo-100: #d9e0ee;
+  --indigo-300: #8a9cc4;
+  --indigo-500: #3a5a92;
+  --indigo-600: #2e4a7c;
+  --indigo-700: #22385f;
+
+  /* 朱砂 */
+  --vermilion-100: #f7e6e1;
+  --vermilion-500: #b4462f;
+  --vermilion-600: #95361f;
+
+  /* 苔绿 */
+  --moss-100: #e4efe4;
+  --moss-300: #8db392;
+  --moss-500: #4a7a4f;
+  --moss-700: #33583a;
+
+  /* 赭黄 */
+  --ochre-100: #f5edd8;
+  --ochre-500: #9a7626;
+
+  /* 三模式标识色(2026-10-11 晚裁决:D 方案语义图标 闪电/仪表/宝石,色不变) */
+  --mode-fast: #9a7626;
+  --mode-standard: #3a5a92;
+  --mode-quality: #4a463f;
+
+  /* 字体族:标题宋体基因;控件 UI 链 SF Pro/Segoe 前置(Win 落 Segoe UI Variable,最接近系统原生) */
+  --font-title: 'Source Han Serif SC', 'Songti SC', 'SimSun', serif;
+  --font-body: 'Segoe UI Variable Text', -apple-system, 'SF Pro Text', 'Segoe UI', 'Microsoft YaHei UI', 'PingFang SC', system-ui, sans-serif;
+  --font-mono: 'IBM Plex Mono', 'Consolas', monospace;
+
+  /* 间距阶梯(4px 基) */
+  --space-1: 2px;
+  --space-2: 4px;
+  --space-3: 6px;
+  --space-4: 8px;
+  --space-5: 12px;
+  --space-6: 16px;
+  --space-7: 20px;
+  --space-8: 24px;
+  --space-9: 32px;
+  --space-10: 40px;
+  --space-11: 48px;
+  --space-12: 64px;
+
+  /* 控件高度档(UI方案 R1:28 紧凑/32 默认/36 舒适,iOS 节奏) */
+  --ctl-h-compact: 28px;
+  --ctl-h-default: 32px;
+  --ctl-h-comfort: 36px;
+
+  /* 圆角新制(UI方案 R1):2 标签 / 6 控件 / 10 卡片 / 14 浮层弹窗 */
+  --radius-xs: 2px;
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+
+  /* 焦点环(全应用唯一:2px 纸面偏移 + 4px 靛蓝,键盘可走性的视觉承诺) */
+  --focus-ring: 0 0 0 2px var(--paper-base), 0 0 0 4px var(--indigo-500);
+
+  /* 阴影三档(UI方案 R1:macOS 式浮而不飘——低扩散、大偏移、低不透明度) */
+  --shadow-1: 0 1px 2px rgba(28, 26, 23, 0.06);
+  --shadow-menu: 0 2px 6px rgba(28, 26, 23, 0.10), 0 16px 48px -12px rgba(28, 26, 23, 0.28);
+  --shadow-dialog: 0 4px 12px rgba(28, 26, 23, 0.10), 0 32px 80px -16px rgba(28, 26, 23, 0.34);
+
+  /* 布局常量(UI方案 3.2) */
+  --titlebar-h: 32px;
+  --rail-w: 264px;
+  --rail-w-collapsed: 56px;
+  --content-w: 760px;
+  --context-w: 336px;
+}

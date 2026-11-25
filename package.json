@@ -1,0 +1,50 @@
+{
+  "name": "lexiaoen",
+  "version": "0.6.0",
+  "description": "乐小恩 · 河北医学专升本智能导师",
+  "main": "out/main/index.js",
+  "author": "乐小恩",
+  "license": "UNLICENSED",
+  "scripts": {
+    "dev": "electron-vite dev",
+    "build": "tsc --noEmit && electron-vite build",
+    "preview": "electron-vite preview",
+    "typecheck": "tsc --noEmit",
+    "dist": "electron-vite build && electron-builder --win",
+    "dist:dir": "electron-vite build && electron-builder --dir",
+    "selfcheck": "electron . --self-check",
+    "selfcheck:llm": "electron . --self-check-llm"
+  },
+  "dependencies": {
+    "@node-rs/jieba": "^2.0.4",
+    "better-sqlite3": "^13.0.3",
+    "pdfjs-dist": "^5.7.284",
+    "radix-ui": "^1.7.0",
+    "ts-fsrs": "^5.4.2"
+  },
+  "devDependencies": {
+    "@shikijs/langs": "^4.5.0",
+    "@shikijs/themes": "^4.5.0",
+    "@tailwindcss/vite": "^4.3.3",
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/node": "^22.10.0",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^5.2.0",
+    "electron": "^44.7.0",
+    "electron-builder": "^26.15.3",
+    "electron-vite": "^5.0.0",
+    "motion": "^14.1.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-markdown": "^10.1.0",
+    "remark-gfm": "^4.0.1",
+    "sharp": "^0.35.5",
+    "shiki": "^4.5.0",
+    "subset-font": "^2.9.0",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^5.9.3",
+    "vite": "^7.0.0",
+    "zustand": "^5.0.15"
+  }
+}
